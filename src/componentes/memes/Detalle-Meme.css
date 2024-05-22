@@ -1,0 +1,9 @@
+.detalle-meme {
+    text-align: center;
+}
+
+.meme-imagen {
+    width: 400px;
+    height: auto;
+    margin-bottom: 20px;
+}

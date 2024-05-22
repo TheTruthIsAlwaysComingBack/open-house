@@ -1,0 +1,14 @@
+[
+    {
+        "id": 1,
+        "titulo": "Meme 1",
+        "descripcion": "Descripción del Meme 1",
+        "imagen": "https://i.postimg.cc/NKs7JF6R/meme1.jpg"
+    },
+    {
+        "id": 2,
+        "titulo": "Meme 2",
+        "descripcion": "Descripción del Meme 2",
+        "imagen": "https://i.postimg.cc/nCYGGBDH/meme2.jpg"
+    }
+]
