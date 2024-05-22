@@ -1,0 +1,17 @@
+:root {
+  --Blanco-hueso: rgb(242, 243, 244);
+  --Azul: rgb(0, 64, 152);
+  --Azul-opaco: rgb(42, 105, 176);
+  --Amarillo: rgb(253, 208, 0);
+  --Tipografia: "Montserrat", sans-serif;
+}
+#root {
+  padding: 0px;
+  margin: 0px;
+}
+body {
+  margin: 0px;
+  width: 100%;
+  height: 100%;
+  font-family: var(--Tipografia);
+}

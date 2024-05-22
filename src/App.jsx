@@ -1,6 +1,6 @@
 import "./App.css";
 import Memes from "./componentes/memes/Memes";
-import Revista from "./componentes/revista/Revista";
+import Home from "./componentes/inicio/Home";
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 
 function App() {
@@ -9,6 +9,7 @@ function App() {
       <Router>
         <div>
           <Routes>
+            <Route path="/" element={<Home />} />
             <Route path="/memes/*" element={<Memes />} />
             <Route path="/revista/*" element={<Revista />} />
           </Routes>
