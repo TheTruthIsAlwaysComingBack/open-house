@@ -1,0 +1,37 @@
+.introduccion
+{
+    width: 100%;
+    height: fit-content;
+}
+.introduccion img
+{
+    width: 100%;
+    box-shadow: 0px 2px 10px;
+}
+.texto
+{
+    padding: 5px 20px 20px 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: left;
+
+}
+.texto h2
+{
+    font-size: 15px;
+    color: var(--Azul);
+}
+.texto p
+{
+    font-size: 10px;
+    line-height: 19px;
+    text-align: justify;
+}
+.texto hr
+{
+    width: 70%;
+    height: 2px;
+    border: 0;
+    background: var(--Amarillo);
+}
