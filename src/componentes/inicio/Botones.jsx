@@ -10,7 +10,7 @@ const Botones = () => {
         <h2>Conoce las opiniones de otras personas</h2>
         <button> <img src={"./src/assets/imagenes/interview.png"} alt="entrevistas" /> </button>
         <hr></hr>
-        <h2>Ríe un poco con memes</h2>
+        <h2>Ríe un poco con nuestros memes</h2>
         <button> <img src={"./src/assets/imagenes/laugh.png"} alt="memes" /> </button>
     </div>
   )
