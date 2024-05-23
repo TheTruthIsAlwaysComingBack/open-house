@@ -11,8 +11,8 @@ const ListaMemes = () => {
                 {memes.map(meme => (
                     <li key={meme.id} className="meme-item">
                         <Link to={`/memes/${meme.id}`}>
-                            <img src={meme.imagen} alt={meme.titulo} className="meme-imagen" />
                             <p>{meme.titulo}</p>
+                            <img src={meme.imagen} alt={meme.titulo} className="meme-imagen" />
                         </Link>
                     </li>
                 ))}

@@ -1,26 +1,38 @@
 [
     {
         "id": 1,
-        "titulo": "Meme 1",
-        "descripcion": "Descripción del Meme 1",
+        "titulo": "Los de Telecom",
+        "descripcion": "Un puesto con un cartel que dice 'TELECOM', haciendo una broma sobre la informalidad o lo básico de sus servicios.",
         "imagen": "https://i.postimg.cc/pLDhr2vJ/meme1.jpg"
     },
     {
         "id": 2,
-        "titulo": "Meme 2",
-        "descripcion": "Descripción del Meme 2",
+        "titulo": "El basurero inteligente",
+        "descripcion": "Un bote de basura con un aspecto oscuro, con la frase irónica 'Más negro que nunca', probablemente criticando alguna situación y lo ironico de ver dos añor el mismo proyecto.",
         "imagen": "https://i.postimg.cc/zXHRmCPM/meme2.jpg"
     },
     {
         "id": 3,
-        "titulo": "Meme 2",
-        "descripcion": "Descripción del Meme 2",
+        "titulo": "Visualizando el primer lugar",
+        "descripcion": "Un estudiante con uniforme escolar mirando a través de un pequeño telescopio, con la frase 'Yo visualizando el primer lugar en el Open House', seguido de 'con promesas vacías', sugiriendo aspiraciones que no se cumplirán.",
         "imagen": "https://i.postimg.cc/gcT6BS48/meme3.jpg"
     },
     {
         "id": 4,
-        "titulo": "Meme 2",
-        "descripcion": "Descripción del Meme 2",
+        "titulo": "Desilusión del pingüino",
+        "descripcion": "Una persona disfrazada de pingüino en el open house, con la frase 'Yo viendo mis sueños desaparecer después de escuchar '¿Eso es todo joven?'', indicando desilusión tras un esfuerzo.",
         "imagen": "https://i.postimg.cc/Vky0zJxN/meme4.jpg"
+    },
+    {
+        "id": 5,
+        "titulo": "El módem deseado",
+        "descripcion": "Un cartel que muestra un módem de internet, con la frase 'Ojalá tener ese módem, haber si así por fin me llega el internet de la EMI', criticando la mala calidad del internet en la institución.",
+        "imagen": "https://i.postimg.cc/V6DzCGsK/meme5.jpg"
+    },
+    {
+        "id": 6,
+        "titulo": "Improvisación en el Open House",
+        "descripcion": "Una persona de espaldas con una cuerda y una botella de plástico, con la frase 'Cuando no sabes con qué voluminizar el Open House y ves a los 3 por el arosco', sugiriendo improvisación o falta de recursos.",
+        "imagen": "https://i.postimg.cc/WzzT6GhT/meme6.jpg"
     }
 ]
