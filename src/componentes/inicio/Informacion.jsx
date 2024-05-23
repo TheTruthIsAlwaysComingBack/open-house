@@ -16,7 +16,7 @@ const Informacion = () => {
           Unidad Académica La Paz.
         </p>
         <hr></hr>
-        <h2>¿CUÁL ES EL OBJETIVO DEL OPEN HOUSE?</h2>
+        <h2>¿CUÁL ES EL OBJETIVO DE OPEN HOUSE?</h2>
         <p>
           La finalidad es identificar proyectos representativos y de impacto que
           serán propuestos a la Unidad de Investigación Ciencia y tecnología
@@ -32,6 +32,16 @@ const Informacion = () => {
           </a>{" "}
           CAPITULO III Articulo 19
         </p>
+        <hr></hr>
+        <h2>OPEN HOUSE 2024</h2>
+        <p>
+          La feria de proyectos se llevó a cabo el 17 de mayo y contó con la
+          participación de más de 100 proyectos de diferentes áreas de
+          ingeniería y tecnología. El evento, que se ha convertido en un
+          referente obligatorio académico de la institución, ofrece a los
+          estudiantes la oportunidad de demostrar sus habilidades y creatividad.
+        </p>
+        <img src={"./src/assets/imagenes/feria.jpg"} alt="" />
       </div>
     </div>
   );

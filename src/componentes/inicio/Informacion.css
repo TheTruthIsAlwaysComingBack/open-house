@@ -1,6 +1,6 @@
 .introduccion
 {
-    width: 100%;
+    width: 100vw;
     height: fit-content;
 }
 .introduccion img
@@ -34,4 +34,33 @@
     height: 2px;
     border: 0;
     background: var(--Amarillo);
+}
+.texto img
+{
+    margin:20px 0px 20px 0px;
+    width: 80%;
+    box-shadow: 0px 2px 10px;
+    align-self: center;
+}
+
+@media screen and (min-width: 1024px)
+{
+    .texto
+    {
+        padding: 5px 40px 20px 40px;
+    }
+    .texto img
+    {
+        width: 560px;
+        height: 500px;
+    }
+    .texto h2 
+    {
+        font-size: 30px;
+    }
+    .texto p 
+    {
+        font-size: 20px;
+        line-height: 35px;
+    }
 }
