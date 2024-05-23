@@ -1,0 +1,26 @@
+[
+    {
+        "id":"1",
+        "titulo": "Entrevista Lic. Grover Magueño Gordillo",
+        "duracion": "2:04",
+        "video": "https://streamable.com/309jds"
+    },
+    {
+        "id":"2",
+        "titulo": "Entrevista Ing. Rocio Carrasco",
+        "duracion": "2:47",
+        "video": "https://streamable.com/g61k1w"
+    },
+    {
+        "id":"3",
+        "titulo": "Entrevista Ing. Miguel Zambrana",
+        "duracion": "2:32",
+        "video": "https://streamable.com/l6hrv5"
+    },
+    {
+        "id":"4",
+        "titulo": "Entrevista My. DIM. Wilmer Victor Ponce Huanaco",
+        "duracion": "2:44",
+        "video": "https://streamable.com/dmkwo7"
+    }
+]
