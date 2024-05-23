@@ -1,0 +1,23 @@
+.detalles-entrevista {
+    display: flex;
+    align-items: center;
+    justify-content: center; /* Añadido para centrar horizontalmente */
+    flex-direction: column;
+  }
+  
+  .contenedor-video {
+    background-color: yellow; /* Añadido para el fondo amarillo */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    max-width: 400px; /* Limita el ancho del contenedor del video */
+    height: auto;
+    padding: 20px;
+  }
+  
+  .entrevista-preview {
+    max-width: 100%;
+    height: auto;
+  }
+  

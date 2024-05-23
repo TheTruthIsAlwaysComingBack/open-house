@@ -10,7 +10,7 @@ const ListaEntrevistas = () => {
       <ul className="entrevistas-contenedor-ul">
         {entrevista.map((entrevista) => (
           <li key={entrevista.id} className="entrevista-item">
-            <Link to={`/entrevista/${entrevista.id}`}>
+            <Link to={`/entrevistas/${entrevista.id}`}>
               <video
                 src={entrevista.video}
                 alt={entrevista.titulo}
@@ -19,7 +19,6 @@ const ListaEntrevistas = () => {
               />
               <div className="titulo-entrevista">
                 <p>{entrevista.titulo}</p>
-                <p>Duración: {entrevista.duracion}</p>
               </div>
             </Link>
           </li>
