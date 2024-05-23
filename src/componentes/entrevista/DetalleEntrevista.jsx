@@ -19,7 +19,7 @@ const DetalleEntrevista = () => {
           src={entrevistaEncontrada.video}
           className="entrevista-preview"
           controls
-          autoPlay  // Añadido para reproducir automáticamente
+          autoPlay  
         />
       </div>
     </div>
