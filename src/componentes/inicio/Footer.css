@@ -23,6 +23,15 @@ hr
     border: 0;
     background: var(--Azul);
 }
+a
+{
+    text-decoration: none;
+    color: #fff;
+}
+a :hover
+{
+    color: var(--Amarillo)
+}
 @media screen and (min-width: 1024px)
 {
   footer li

@@ -15,7 +15,7 @@ const Header = () => {
             src={"./src/assets/imagenes/Isologos-Ingenieria-Sistemas.png"}
             alt="sistemas"
           />
-          <img class="emi" src={"src/assets/imagenes/logo_emi.png"} alt="emi" />
+          <img className="emi" src={"src/assets/imagenes/logo_emi.png"} alt="emi" />
           <img
             src={
               "src/assets/imagenes/Isologos-Ingenieria-Telecomunicaciones.png"
