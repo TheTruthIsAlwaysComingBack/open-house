@@ -1,6 +1,7 @@
 import "./App.css";
-import Memes from "./componentes/memes/Memes";
 import Home from "./componentes/inicio/Home";
+import Revista from "./componentes/revista/Revista";
+import Memes from "./componentes/memes/Memes";
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 
 function App() {

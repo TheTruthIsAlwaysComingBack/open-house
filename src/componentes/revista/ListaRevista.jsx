@@ -7,7 +7,7 @@ const ListaRevista = () => {
   return (
     <div className="lista-revista">
       <h1>revista</h1>
-      <ul>
+      <ul className="revista-contenedor-ul">
         {revista.map((revista) => (
           <li key={revista.id} className="revista-item">
             <Link to={`/revista/${revista.id}`}>
@@ -16,7 +16,9 @@ const ListaRevista = () => {
                 alt={revista.titulo}
                 className="revista-imagen"
               />
-              <p>{revista.titulo}</p>
+              <div className="texto-revista">
+                <p>{revista.titulo}</p>
+              </div>
             </Link>
           </li>
         ))}
