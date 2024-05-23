@@ -22,5 +22,35 @@
         "titulo": "Entrevista My. DIM. Wilmer Victor Ponce Huanaco",
         "duracion": "2:44",
         "video": "https://streamable.com/dmkwo7"
+    },
+    {
+        "id":"5",
+        "titulo": "Bombeo solar",
+        "duracion": "2:29",
+        "video": "https://streamable.com/hbva0x"
+    },
+    {
+        "id":"6",
+        "titulo": "Sistema de control de armas",
+        "duracion": "1:09",
+        "video": "https://streamable.com/ullqph"
+    },
+    {
+        "id":"7",
+        "titulo": "Sistema de control de somnolencia para vehiculos",
+        "duracion": "0:38",
+        "video": "https://streamable.com/8qdtp4"
+    },
+    {
+        "id":"8",
+        "titulo": "Carro bombero y robot de aprendizaje para niños",
+        "duracion": "1:12",
+        "video": "https://streamable.com/2z3865"
+    },
+    {
+        "id":"9",
+        "titulo": "Carro bombero pt.2",
+        "duracion": "1:04",
+        "video": "https://streamable.com/sr0a8l"
     }
 ]
