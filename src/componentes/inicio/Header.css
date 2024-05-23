@@ -2,7 +2,7 @@
 {
   background-color: var(--Blanco-hueso);
   margin: 0px;
-  width: 100%;
+  width: 100vw;
   height: 60px;
   display: flex;
   flex-direction: row;
@@ -19,4 +19,21 @@
 .logos-carreras .emi
 {
   width: 70px;
+}
+@media screen and (min-width: 1024px)
+{
+  .logos-carreras
+  {
+    height: 150px;
+    padding-bottom: 20px;
+  }
+  .logos-carreras img 
+  {
+    width: 180px;
+    height: 180px;
+  }
+  .logos-carreras .emi
+{
+  width: 220px;
+}
 }

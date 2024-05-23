@@ -1,0 +1,69 @@
+.botones
+{
+    background-color: var(--Azul);
+        width: 100vw;
+        height: fit-content;
+        padding-bottom: 40px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+}
+.botones button
+{
+    width: 100px;
+    height: 100px;
+    border: double var(--Amarillo) 3px;
+    background-color:rgb(229, 231, 233);
+    box-decoration-break: none;
+    box-shadow: 3px 3px 10px ;
+    border-radius: 5px;
+}
+.botones button img
+{
+   width: 60px;
+   height: 60px;
+}
+.botones h2
+{
+    color: #fff;
+    font-size: 15px;
+}
+.botones hr
+{
+    width: 70%;
+    height: 2px;
+    border: 0;
+    background: var(--Azul-opaco);
+}
+button:hover {
+    animation: shake 0.5s;
+    animation-timing-function: ease-in-out;
+}
+
+@keyframes shake {
+    0% { transform: translateX(0); }
+    25% { transform: translateX(-5px); }
+    50% { transform: translateX(5px); }
+    75% { transform: translateX(-5px); }
+    100% { transform: translateX(0); }
+}
+
+@media screen and (min-width: 1024px)
+{
+  .botones h2
+  {
+      font-size: 30px;
+  }
+  .botones button
+  {
+    width: 250px;
+    height: 250px;
+    border: double var(--Amarillo) 8px;
+  }
+  .botones button img
+  {
+    width: 180px;
+    height: 180px;
+  }
+}
