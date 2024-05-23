@@ -1,0 +1,47 @@
+.lista-revista {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.lista-revista .revista-imagen {
+  width: 10rem;
+  height: 10rem;
+}
+
+.lista-revista .revista-item a {
+  background-color: var(--Amarillo);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  text-decoration: none;
+  width: 23rem;
+  height: 10rem;
+  border-radius: 0.8rem;
+  overflow: hidden;
+}
+
+.texto-revista {
+  width: 11rem;
+  height: 10rem;
+  display: flex;
+  align-items: center;
+  color: var(--Azul);
+  font-weight: 700;
+  font-size: 0.9rem;
+  margin-right: 5px;
+}
+
+.revista-contenedor-ul {
+  width: 23rem;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.lista-revista {
+  margin-bottom: 2rem;
+}
