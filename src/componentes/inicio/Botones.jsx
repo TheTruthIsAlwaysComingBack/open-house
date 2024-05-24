@@ -12,7 +12,7 @@ const Botones = () => {
         </Link>
         <hr></hr>
         <h2>Conoce las opiniones de otras personas</h2>
-        <Link to={`/entrevista`}>
+        <Link to={`/entrevistas`}>
         <button> <img src={"./src/assets/imagenes/interview.png"} alt="entrevistas" /> </button>
         </Link>
         <hr></hr>
