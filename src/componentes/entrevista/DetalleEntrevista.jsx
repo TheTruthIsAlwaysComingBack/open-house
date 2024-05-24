@@ -15,12 +15,14 @@ const DetalleEntrevista = () => {
     <div className="detalles-entrevista">
       <h1>{entrevistaEncontrada.titulo}</h1>
       <div className="contenedor-video">
-        <video
-          src={entrevistaEncontrada.video}
+        <iframe
+          src={`https://streamable.com/e/${entrevistaEncontrada.video.split('/').pop()}`}
+          title={entrevistaEncontrada.titulo}
           className="entrevista-preview"
-          controls
-          autoPlay  
-        />
+          frameBorder="0"
+          allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+          allowFullScreen
+        ></iframe>
       </div>
     </div>
   );

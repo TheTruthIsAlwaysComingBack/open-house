@@ -11,12 +11,13 @@ const ListaEntrevistas = () => {
         {entrevista.map((entrevista) => (
           <li key={entrevista.id} className="entrevista-item">
             <Link to={`/entrevistas/${entrevista.id}`}>
-              <video
-                src={entrevista.video}
-                alt={entrevista.titulo}
-                className="entrevista-preview"
-                controls
-              />
+              <div className="video-container">
+                <img
+                  src={`https://cdn-cf-east.streamable.com/image/${entrevista.video.split('/').pop()}.jpg`}
+                  alt={entrevista.titulo}
+                  className="entrevista-preview"
+                />
+              </div>
               <div className="titulo-entrevista">
                 <p>{entrevista.titulo}</p>
               </div>
