@@ -1,4 +1,4 @@
-/* :root {
+:root {
   --Blanco-hueso: rgb(242, 243, 244);
   --Azul: rgb(0, 64, 152);
   --Azul-opaco: rgb(42, 105, 176);
@@ -15,4 +15,3 @@ body {
   height: 100%;
   font-family: var(--Tipografia);
 }
- */
