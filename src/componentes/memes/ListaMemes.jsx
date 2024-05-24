@@ -9,12 +9,12 @@ const ListaMemes = () => {
             <h1>Memes</h1>
             <ul>
                 {memes.map(meme => (
-                    <li key={meme.id} className="meme-item">
-                        <Link to={`/memes/${meme.id}`}>
-                            <p>{meme.titulo}</p>
+                    <Link to={`/memes/${meme.id}`} key={meme.id}>
+                        <li className="meme-item">
+                            <h2>{meme.titulo}</h2>
                             <img src={meme.imagen} alt={meme.titulo} className="meme-imagen" />
-                        </Link>
-                    </li>
+                        </li>
+                    </Link>
                 ))}
             </ul>
         </div>

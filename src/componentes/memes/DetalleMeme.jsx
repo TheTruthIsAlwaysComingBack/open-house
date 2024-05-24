@@ -8,14 +8,16 @@ const DetalleMeme = () => {
     const meme = memes.find(m => m.id === parseInt(id));
 
     if (!meme) {
-        return <div>Meme no encontrado</div>;
+        return <div className="detalle-meme">Meme no encontrado</div>;
     }
 
     return (
         <div className="detalle-meme">
-            <h1>{meme.titulo}</h1>
+            <h2>{meme.titulo}</h2>
             <img src={meme.imagen} alt={meme.titulo} className="meme-imagen" />
-            <p>{meme.descripcion}</p>
+            <div className="descripcion">
+                <p>{meme.descripcion}</p>
+            </div>
         </div>
     );
 }
