@@ -9,8 +9,8 @@
 
 .detalle-meme h2 {
     color: white;
-    font-size: 50px;
-    margin-bottom: 20px;
+    font-size: 40px;
+    margin-bottom: 10px;
 }
 
 .detalle-meme img {
@@ -31,4 +31,14 @@
     padding: 5px;
     font-weight: bold;
     font-size: 25px;
+}
+
+@media screen and (max-width: 1024px) {
+    .detalle-meme img {
+        width: 90%;
+    }
+
+    .detalle-meme .descripcion {
+        width: 90%;
+    }
 }
