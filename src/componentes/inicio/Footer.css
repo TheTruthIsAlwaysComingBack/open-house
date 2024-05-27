@@ -24,7 +24,8 @@ a {
   text-decoration: none;
   color: #fff;
 }
-a :hover {
+
+a:hover {
   color: var(--Amarillo);
 }
 @media screen and (min-width: 1024px) {

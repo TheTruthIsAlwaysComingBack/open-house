@@ -8,24 +8,16 @@ const Footer = () => {
       <footer>
         <ul>
           <li>
-            <Link to={`/`} >
-            <a>Inicio</a>
-            </Link>
+            <Link to={`/`}>Inicio</Link>
           </li>
           <li>
-          <Link to={`/revista`} >
-            <a>Proyectos</a>
-            </Link>
+            <Link to={`/revista`}>Proyectos</Link>
           </li>
           <li>
-          <Link to={`/entrevista`} >
-            <a>Entrevistas</a>
-            </Link>
+            <Link to={`/entrevista`}>Entrevistas</Link>
           </li>
           <li>
-          <Link to={`/memes`} >
-            <a>Memes</a>
-            </Link>
+            <Link to={`/memes`}>Memes</Link>
           </li>
         </ul>
         <hr></hr>

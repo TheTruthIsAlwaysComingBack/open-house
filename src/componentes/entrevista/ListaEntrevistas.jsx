@@ -1,5 +1,5 @@
 import React from "react";
-import './ListaEntrevistas.css';
+import "./ListaEntrevistas.css";
 import entrevista from "../../datos/entrevista.json";
 import { Link } from "react-router-dom";
 
@@ -10,10 +10,12 @@ const ListaEntrevistas = () => {
       <ul className="entrevistas-contenedor-ul">
         {entrevista.map((entrevista) => (
           <li key={entrevista.id} className="entrevista-item">
-            <Link to={`/entrevistas/${entrevista.id}`}>
+            <Link to={`/entrevista/${entrevista.id}`}>
               <div className="video-container">
                 <img
-                  src={`https://cdn-cf-east.streamable.com/image/${entrevista.video.split('/').pop()}.jpg`}
+                  src={`https://cdn-cf-east.streamable.com/image/${entrevista.video
+                    .split("/")
+                    .pop()}.jpg`}
                   alt={entrevista.titulo}
                   className="entrevista-preview"
                 />

@@ -14,12 +14,10 @@ const DetallesRevista = () => {
   return (
     <div className="container-detalle detalle-revista">
       <h1>{revistas.titulo}</h1>
-      <img
-        src={revistas.imagen}
-        alt={revistas.titulo}
-        className="revista-imagen"
-      />
-      <p>{revistas.descripcion}</p>
+      <img src={revistas.imagen} alt={revistas.titulo} />
+      <div className="parrafo-detalle">
+        <p>{revistas.descripcion}</p>
+      </div>
     </div>
   );
 };
