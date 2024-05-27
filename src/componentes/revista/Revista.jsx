@@ -4,16 +4,19 @@ import ListaRevista from "./ListaRevista";
 import DetalleRevista from "./DetallesRevista";
 import Header from "../inicio/Header";
 import Footer from "../inicio/Footer";
+import "./Revista.css";
 
 const Revista = () => {
   return (
     <>
-      <Header />
-      <Routes>
-        <Route path="/" element={<ListaRevista />} />
-        <Route path=":id" element={<DetalleRevista />} />
-      </Routes>
-      <Footer />
+      <div className="revistaa">
+        <Header />
+        <Routes>
+          <Route path="/" element={<ListaRevista />} />
+          <Route path=":id" element={<DetalleRevista />} />
+        </Routes>
+        <Footer />
+      </div>
     </>
   );
 };

@@ -7,23 +7,27 @@ const Header = () => {
         <div className="logos-carreras">
           <img
             src={
-              "./src/assets/imagenes/Isologos-Ingenieria-Sistemas-Electronicos.png"
+              "../src/assets/imagenes/Isologos-Ingenieria-Sistemas-Electronicos.png"
             }
             alt="electronica"
           />
           <img
-            src={"./src/assets/imagenes/Isologos-Ingenieria-Sistemas.png"}
+            src={"../src/assets/imagenes/Isologos-Ingenieria-Sistemas.png"}
             alt="sistemas"
           />
-          <img className="emi" src={"src/assets/imagenes/logo_emi.png"} alt="emi" />
+          <img
+            className="emi"
+            src={"../src/assets/imagenes/logo_emi.png"}
+            alt="emi"
+          />
           <img
             src={
-              "src/assets/imagenes/Isologos-Ingenieria-Telecomunicaciones.png"
+              "../src/assets/imagenes/Isologos-Ingenieria-Telecomunicaciones.png"
             }
             alt="telecomunicacion"
           />
           <img
-            src={"src/assets/imagenes/Isologos-Ingenieria-Mecatronica.png"}
+            src={"../src/assets/imagenes/Isologos-Ingenieria-Mecatronica.png"}
             alt="mecatronica"
           />
         </div>
