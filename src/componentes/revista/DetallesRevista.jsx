@@ -12,7 +12,7 @@ const DetallesRevista = () => {
   }
 
   return (
-    <div className="detalle-revista">
+    <div className="container-detalle detalle-revista">
       <h1>{revistas.titulo}</h1>
       <img
         src={revistas.imagen}

@@ -1,0 +1,12 @@
+.container-detalle {
+  display: flex;
+  flex-direction: column;
+  width: 90%;
+  padding: 2rem;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.container-detalle img {
+  width: 40rem;
+}
