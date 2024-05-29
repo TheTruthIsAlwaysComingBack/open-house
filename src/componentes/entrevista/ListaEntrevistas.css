@@ -1,61 +1,94 @@
 .lista-entrevistas {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+  text-align: center;
   padding: 20px;
 }
 
-.lista-entrevistas h1 {
-  text-align: center;
-  margin-bottom: 20px;
-}
-
-.entrevistas-contenedor-ul {
-  list-style: none;
-  padding: 0;
-  margin: 0;
-}
-
-.entrevista-item {
+.lista-entrevistas ul {
   display: flex;
-  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.lista-entrevistas h1 {
+  color: white;
+  font-size: 40px;
+}
+
+.lista-entrevistas .entrevista-item {
+  width: 300px;
+  height: 350px;
+  margin: 10px;
+  padding: 20px;
   background-color: #fbd000;
-  border-radius: 15px;
-  margin-bottom: 20px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.863);
+  border-radius: 0.8rem;
+  overflow: hidden;
   transition: box-shadow 0.3s ease;
 }
 
-.entrevista-item:hover {
-  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+.lista-entrevistas .entrevista-item:hover {
+  animation: zoomIn 0.3s forwards;
+  box-shadow: 3px 3px 4px rgb(255, 255, 255);
 }
 
-.entrevista-item a {
+.lista-entrevistas .entrevista-item:not(:hover) {
+  animation: zoomOut 0.3s forwards;
+}
+
+.lista-entrevistas .entrevista-item p {
+  color: var(--Azul);
+  padding: 5px;
+  margin: 0;
+  font-weight: 1000;
+}
+
+.lista-entrevistas .entrevista-preview {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 10px 10px 0 0;
+  margin-top: -20px;
+}
+
+.lista-entrevistas .titulo-entrevista {
+  height: 70%;
   display: flex;
   align-items: center;
-  text-decoration: none;
-  color: inherit;
-  width: 100%;
-}
-
-.entrevista-preview {
-  width: 250px; 
-  height: auto;
-  border-top-left-radius: 15px;
-  border-bottom-left-radius: 15px;
-}
-
-.titulo-entrevista {
-  flex: 1;
-  background-color: #ffdb58;
+  justify-content: center;
   padding: 15px;
-  border-top-right-radius: 15px;
-  border-bottom-right-radius: 15px;
+  border-radius: 0 0 10px 10px;
 }
 
-.titulo-entrevista p {
+body{
+  background-color: blue;
+}
+.lista-entrevistas .titulo-entrevista p {
+  color: var(--Azul);
+  padding: 5px;
   margin: 0;
-  font-size: 18px;
-  font-weight: bold;
-  color: #0000ff;
+  font-weight: 1000;
+}
+
+@keyframes zoomIn {
+  from {
+    transform: scale(1);
+  }
+
+  to {
+    transform: scale(1.03);
+  }
+}
+
+@keyframes zoomOut {
+  from {
+    transform: scale(1.03);
+  }
+
+  to {
+    transform: scale(1);
+  }
 }
