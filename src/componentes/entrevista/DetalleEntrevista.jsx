@@ -13,7 +13,7 @@ const DetalleEntrevista = () => {
 
   return (
     <div className="detalles-entrevista">
-      <h1>{entrevistaEncontrada.titulo}</h1>
+      <h1 className="titulo-entrevista">{entrevistaEncontrada.titulo}</h1>
       <div className="contenedor-video">
         <iframe
           src={`https://streamable.com/e/${entrevistaEncontrada.video.split('/').pop()}`}
