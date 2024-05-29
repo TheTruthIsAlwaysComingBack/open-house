@@ -1,39 +1,31 @@
-.logos-carreras
-{
+.logos-carreras {
   background-color: var(--Blanco-hueso);
   margin: 0px;
-  width: 100vw;
+  width: 100%;
   height: 60px;
   display: flex;
   flex-direction: row;
   align-items: center;
   justify-content: space-around;
   box-shadow: 0px 2px 5px;
-  
 }
-.logos-carreras img
-{
+.logos-carreras img {
   width: 50px;
   height: 50px;
 }
-.logos-carreras .emi
-{
+.logos-carreras .emi {
   width: 70px;
 }
-@media screen and (min-width: 1024px)
-{
-  .logos-carreras
-  {
+@media screen and (min-width: 1024px) {
+  .logos-carreras {
     height: 150px;
     padding-bottom: 20px;
   }
-  .logos-carreras img 
-  {
+  .logos-carreras img {
     width: 180px;
     height: 180px;
   }
-  .logos-carreras .emi
-{
-  width: 220px;
-}
+  .logos-carreras .emi {
+    width: 220px;
+  }
 }

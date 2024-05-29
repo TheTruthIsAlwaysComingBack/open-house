@@ -1,47 +1,87 @@
 .lista-revista {
+  text-align: center;
+  padding: 20px;
+}
+
+.lista-revista ul {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.texto-revista {
+  height: 70%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.lista-revista h1 {
+  color: white;
+  font-size: 40px;
+}
+
+.lista-revista .revista-item {
+  width: 300px;
+  height: 350px;
+  margin: 10px;
+  padding: 20px;
+  background-color: rgb(243, 243, 243);
   display: flex;
   flex-direction: column;
   align-items: center;
-}
-
-.lista-revista .revista-imagen {
-  width: 10rem;
-  height: 10rem;
-}
-
-.lista-revista .revista-item a {
-  background-color: var(--Amarillo);
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  text-decoration: none;
-  width: 23rem;
-  height: 10rem;
+  text-align: center;
+  box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.863);
   border-radius: 0.8rem;
   overflow: hidden;
 }
 
-.texto-revista {
-  width: 11rem;
-  height: 10rem;
-  display: flex;
-  align-items: center;
+.lista-revista .revista-item:hover {
+  animation: zoomIn 0.3s forwards;
+  box-shadow: 3px 3px 4px rgb(255, 255, 255);
+}
+
+.lista-revista .revista-item:not(:hover) {
+  animation: zoomOut 0.3s forwards;
+}
+
+.lista-revista .revista-item p {
   color: var(--Azul);
-  font-weight: 700;
-  font-size: 0.9rem;
-  margin-right: 5px;
-}
-
-.revista-contenedor-ul {
-  width: 23rem;
-  list-style-type: none;
+  padding: 5px;
   margin: 0;
-  padding: 0;
-  display: flex;
-  flex-direction: column;
-  gap: 2rem;
+  font-weight: 1000;
 }
 
-.lista-revista {
-  margin-bottom: 2rem;
+.lista-revista .revista-imagen {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 10px 10px 0 0;
+  margin-top: -20px;
+}
+
+.lista-revista .revista-imagen {
+  width: 340px;
+  height: 200px;
+}
+
+/* funciones */
+@keyframes zoomIn {
+  from {
+    transform: scale(1);
+  }
+
+  to {
+    transform: scale(1.03);
+  }
+}
+
+@keyframes zoomOut {
+  from {
+    transform: scale(1.03);
+  }
+
+  to {
+    transform: scale(1);
+  }
 }

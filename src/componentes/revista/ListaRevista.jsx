@@ -6,7 +6,7 @@ import revista from "../../datos/revista.json";
 const ListaRevista = () => {
   return (
     <div className="lista-revista">
-      <h1>revista</h1>
+      <h1>Revista OpenHouse</h1>
       <ul className="revista-contenedor-ul">
         {revista.map((revista) => (
           <li key={revista.id} className="revista-item">

@@ -9,14 +9,12 @@ function App() {
   return (
     <>
       <Router>
-        <div>
-          <Routes>
-            <Route path="/" element={<Home />} />
-            <Route path="/memes/*" element={<Memes />} />
-            <Route path="/revista/*" element={<Revista />} />
-            <Route path="/entrevistas/*" element={<Entrevista/>}/>
-          </Routes>
-        </div>
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/memes/*" element={<Memes />} />
+          <Route path="/revista/*" element={<Revista />} />
+          <Route path="/entrevista/*" element={<Entrevista />} />
+        </Routes>
       </Router>
     </>
   );
