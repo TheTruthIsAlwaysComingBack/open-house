@@ -9,66 +9,66 @@
     "id": 2,
     "titulo": "Control de Estacionamiento con Vision Artificial",
     "descripcion": "La gestión eficiente y segura del estacionamiento es un desafío significativo en entornos universitarios, y la Escuela Militar de Ingeniería (EMI) de La Paz no es una excepción. Problemas como el ingreso no autorizado de vehículos, el estacionamiento inadecuado y la congestión vehicular no solo afectan la movilidad y seguridad del campus, sino que también complican la gestión de emergencias y aumentan el riesgo de robos y vandalismo. En respuesta a estos desafíos, la EMI está implementando un innovador sistema de control de estacionamiento basado en tecnologías de visión artificial y reconocimiento de patrones. Inspirados por estudios previos realizados en el complejo aduanero de Tomasiri en Tacna y la Universidad de El Salvador, donde sistemas de reconocimiento de placas vehiculares han demostrado aumentar la eficiencia y seguridad, la EMI ha decidido adoptar un enfoque similar. Este proyecto utiliza software avanzado de reconocimiento de placas y rosetas para identificar vehículos autorizados y cámaras adicionales para verificar el cumplimiento de las normativas de estacionamiento. El objetivo es optimizar el flujo vehicular, reducir obstrucciones y aumentar la seguridad en el área de estacionamiento.",
-    "imagen": "https://i.postimg.cc/f3M3L8v9/o11.jpg"
+    "imagen": "https://i.postimg.cc/VNCXKTrD/o11.jpg"
   },
   {
     "id": 3,
     "titulo": "Robot Humanoide",
     "descripcion": "Los robots humanoides representan la culminación de décadas de avances en robótica e inteligencia artificial, acercándonos cada vez más a la creación de máquinas que pueden interactuar con el mundo de manera similar a los seres humanos. Estas fascinantes creaciones han capturado la imaginación del público y han generado un intenso interés en una amplia gama de aplicaciones, desde las asistencias del hogar hasta la exploración espacial. Robot Humanoide La idea de robots que se asemejan a nosotros en forma y función ha sido un tema recurrente en la ciencia ficción durante años, pero ahora está tomando forma en la realidad. Este avance tecnológico promete revolucionar numerosos aspectos de nuestra vida cotidiana y abrir nuevas posibilidades en campos tan diversos como la medicina, la educación y la industria. Los robots humanoides representan un emocionante paso adelante hacia un futuro donde la interacción entre humanos y máquinas será más fluida y natural que nunca.",
-    "imagen": "https://i.postimg.cc/Z0XC3bcZ/o5.jpg"
+    "imagen": "https://i.postimg.cc/c4LYp6tK/o5.jpg"
   },
   {
     "id": 4,
     "titulo": "Robotica Colaborativa",
     "descripcion": "La robótica colaborativa ha emergido como un campo fascinante que redefine la forma en que humanos y máquinas interactúan en diversos entornos. Al fusionar la precisión y la fuerza de los robots con la inteligencia y la flexibilidad humanas, esta tecnología está revolucionando industrias enteras, desde la manufactura hasta la atención médica. En el corazón de la robótica colaborativa se encuentra la idea de la coexistencia armoniosa entre humanos y robots, donde ambas partes trabajan en conjunto para lograr objetivos comunes. A diferencia de los sistemas robóticos tradicionales, diseñados para operar de manera autónoma y separada de los humanos, los robots colaborativos están diseñados para trabajar codo a codo con los trabajadores humanos, aumentando la eficiencia y la seguridad en el lugar de trabajo. La versatilidad de la robótica colaborativa se extiende a una amplia gama de aplicaciones, desde la línea de ensamblaje de una fábrica hasta la rehabilitación física en el sector de la salud. Esta tecnología está democratizando el acceso a la automatización, permitiendo que empresas de todos los tamaños implementen soluciones robóticas para mejorar sus procesos y aumentar su competitividad en un mercado global en constante evolución. En definitiva, la robótica colaborativa representa un emocionante futuro donde humanos y robots trabajan juntos en armonía para alcanzar nuevos niveles de eficiencia y productividad.",
-    "imagen": "https://i.postimg.cc/G9fsQJbW/o12.jpg"
+    "imagen": "https://i.postimg.cc/PrXzd295/o12.jpg"
   },
   {
     "id": 5,
     "titulo": "Vehiculo de exploración en zonas de riesgo",
     "descripcion": "El proyecto tiene como objetivo desarrollar un vehículo autónomo para explorar entornos peligrosos o inaccesibles. Equipado con orugas para garantizar estabilidad en terrenos irregulares y un sistema de detección avanzado, este vehículo es fácil de operar y adaptable a diversas condiciones. Sus capacidades de comunicación en tiempo real permiten el control remoto y la transmisión de datos. Este innovador vehículo mejorará la respuesta en emergencias, la exploración espacial, el monitoreo ambiental y la seguridad industrial, contribuyendo tanto a la protección de vidas humanas como al progreso tecnológico.",
-    "imagen": "https://i.postimg.cc/Bj9PWSLN/o13.jpg"
+    "imagen": "https://i.postimg.cc/jSCH7CsV/o13.jpg"
   },
   {
     "id": 6,
     "titulo": "Sistema de predicción de demanda",
     "descripcion": "La implementación de este sistema representa una inversión inteligente que puede generar beneficios significativos en términos de eficiencia operativa, rentabilidad y satisfacción del cliente. Teniendo como objetivo desarrollar un sistema predictivo que utilice datos históricos y variables relevantes para anticipar la demanda futura de productos en un supermercado. Este proyecto utiliza algoritmos de aprendizaje automático y redes neuronales que se adaptan continuamente a las nuevas tendencias y eventos del mercado para analizar datos históricos de ventas y patrones del mercado. Mediante este análisis, el sistema identifica correlaciones y tendencias que podrían pasar desapercibidas para un observador humano, con el fin de predecir con precisión la demanda futura de un producto.",
-    "imagen": "https://i.postimg.cc/ZBM0w4z8/o6.jpg"
+    "imagen": "https://i.postimg.cc/zvJWXGdc/o6.jpg"
   },
   {
     "id": 7,
     "titulo": "Automatización de registro de asistencia mediante tecnología RFID y C#",
     "descripcion": "El proyecto busca desarrollar un sistema automatizado de registro de asistencia en un entorno académico utilizando tecnología RFID con Arduino y C# para mejorar la eficiencia y precisión en el seguimiento de la asistencia de los alumnos. Se emplean tarjetas RFID para registrar a los alumnos, almacenando esta información en una base de datos. Una aplicación de Windows se encargará de realizar el llamado diario al inicio de cada clase. Para gestionar los retrasos, se establece un rango de tiempo específico. En caso de pérdida u olvido de la tarjeta RFID, se proporcionará un código QR alternativo para el registro de asistencia.",
-    "imagen": "https://i.postimg.cc/XrbqHsmz/o3.jpg"
+    "imagen": "https://i.postimg.cc/cLK3Jjm0/o3.jpg"
   },
   {
     "id": 8,
     "titulo": "Robot móvil orientado a la búsqueda y rescate",
     "descripcion": "Este proyecto describe en detalle la creación y el funcionamiento de un sistema robótico avanzado, diseñado específicamente para tareas de búsqueda, salvamento y rescate en diversas situaciones de emergencia. Este sistema robótico es capaz de operar en entornos desafiantes y peligrosos, donde el acceso humano puede ser limitado o extremadamente arriesgado. Gracias a su capacidad para recopilar y analizar datos en tiempo real, el sistema robótico puede proporcionar información a los equipos de rescate, mejorando la eficiencia y la eficacia de las intervenciones. El prototipo ha sido creado con el propósito de ayudar a las personas en peligro, especialmente en situaciones donde su ubicación es difícil de determinar. Diseñado con un sistema de componentes electromecánicos, este robot cuenta con la destreza necesaria para operar de manera eficiente.",
-    "imagen": "https://i.postimg.cc/68f3DdN5/o2.jpg"
+    "imagen": "https://i.postimg.cc/6pDv40jR/o2.jpg"
   },
   {
     "id": 9,
     "titulo": "Zetabot",
     "descripcion": "Los robots sigue líneas, como el innovador proyecto ZetaBot, están marcando un hito en el ámbito educativo y en diversas aplicaciones industriales. En el campo educativo, ZetaBot se destaca por su capacidad para enseñar conceptos fundamentales de robótica y programación de manera práctica y atractiva. Los estudiantes, desde niveles básicos hasta avanzados, pueden aprender sobre sensores, circuitos y algoritmos de control mientras construyen y programan sus propios robots sigue líneas. Esta experiencia práctica no solo facilita la comprensión de conceptos teóricos, sino que también fomenta el desarrollo de habilidades críticas como la resolución de problemas, el pensamiento lógico y la creatividad. En el ámbito industrial, ZetaBot y otros robots sigue líneas están jugando un papel crucial en la automatización de procesos. Gracias a su simplicidad y costo efectivo, estos robots pueden ser implementados en líneas de ensamblaje y otros entornos industriales para mejorar la eficiencia y reducir errores. La capacidad de seguir trayectorias precisas hace que sean ideales para tareas repetitivas que requieren alta precisión. Además, su diseño relativamente simple y su bajo costo los hacen accesibles para pequeñas y medianas empresas que buscan modernizar sus operaciones sin una inversión significativa. En resumen, ZetaBot está demostrando ser una herramienta multifacética que beneficia tanto a la educación como a la industria, subrayando su versatilidad y efectividad en el aprendizaje y la innovación en múltiples sectores.",
-    "imagen": "https://i.postimg.cc/Zvvng2J1/o7.jpg"
+    "imagen": "https://i.postimg.cc/HnBMJ1Rs/o7.jpg"
   },
   {
     "id": 10,
     "titulo": "Sistema de traducción de lenguaje de señas",
     "descripcion": "Con el objetivo de derribar las barreras de comunicación y fomentar la inclusión, se propone un sistema de reconocimiento de lenguaje de señas en tiempo real. Este sistema, desarrollado con Python y la cámara web, captura los gestos y movimientos de las manos del usuario para traducirlos a lenguaje escrito o hablado. Se espera que el sistema sea funcional, preciso, adaptable a diferentes gestos y cuente con una interfaz intuitiva para todo tipo de usuarios. La implementación de este sistema busca mejorar la accesibilidad e inclusión de personas con discapacidad auditiva en diversos entornos, como instituciones educativas, de salud y gubernamentales, promoviendo la igualdad de oportunidades y la diversidad en la sociedad. De esta manera, se espera que las personas sordas puedan comunicarse de manera más efectiva, ser más independientes y autónomas, y así, participar plenamente en la vida social. Un futuro más accesible e inclusivo: Se espera que el sistema sea funcional, preciso, adaptable a diferentes gestos y cuente con una interfaz intuitiva para todo tipo de usuarios. Su implementación busca mejorar la accesibilidad e inclusión de personas con discapacidad auditiva en diversos entornos, como instituciones educativas, de salud y gubernamentales. De esta manera, se espera que las personas sordas puedan comunicarse de manera más efectiva, ser más independientes y autónomas, y así, participar plenamente en la vida social.",
-    "imagen": "https://i.postimg.cc/gw4x63MB/o10.jpg"
+    "imagen": "https://i.postimg.cc/KzhBwNtF/o10.jpg"
   },
   {
     "id": 11,
     "titulo": "Sistema de control para el servicio de transporte aplicando geolocalización en tiempo real",
     "descripcion": "En el mundo actual, la eficiencia y la optimización son claves para el éxito de cualquier empresa, y el sector del transporte no es una excepción. Es por ello que surge la necesidad de implementar un sistema de control para el servicio de transporte que utilice geolocalización en tiempo real. Este tipo de sistema ofrece una amplia gama de beneficios que permiten mejorar la calidad del servicio, la satisfacción del cliente y la rentabilidad de la empresa. La implementación de un sistema de control para el servicio de transporte aplicando geolocalización en tiempo real ofrece una amplia gama de beneficios para la empresa, los conductores, los usuarios y la comunidad en general. El proyecto tiene como objetivo principal la creación de una plataforma que permita monitorear la ubicación precisa de los vehículos de transporte en tiempo real. Esto se logra mediante la implementación de dispositivos GPS en cada vehículo, los cuales envían datos de ubicación a un servidor central. A partir de esta información, el sistema puede optimizar las rutas de los vehículos, asignándoles las más eficientes en función de su ubicación actual, el tráfico y otros factores relevantes. Esto permite reducir el tiempo de viaje, el consumo de combustible y las emisiones contaminantes. Además, el sistema permite monitorear el desempeño de los conductores y vehículos, identificando posibles desviaciones de las rutas asignadas, conductas de manejo inadecuadas o problemas mecánicos.",
-    "imagen": "https://i.postimg.cc/Z0WWCB6V/o4.jpg"
+    "imagen": "https://i.postimg.cc/MZDV31H2/o4.jpg"
   },
   {
     "id": 12,
     "titulo": "Control de nivel de tanques acoplados mediante pwm y control preciso del nivel de agua en tanques de almacenamiento",
     "descripcion": "El control preciso del nivel de agua en tanques de almacenamiento es crucial en la gestión de recursos hídricos, asegurando la eficiencia operativa y evitando desperdicios o desbordamientos. Tradicionalmente, este control se ha realizado mediante sensores de nivel de agua, pero este proyecto presenta un sistema alternativo viable y de bajo costo utilizando LEDs, un Arduino Uno y un driver ULN2003. El sistema funciona mediante la utilización de LEDs instalados a diferentes alturas en cada tanque, los cuales se conectan a los pines de entrada del Arduino. El Arduino lee el estado de cada LED y, en función de si está encendido o apagado, envía una señal al driver ULN2003 para abrir o cerrar la válvula de agua correspondiente. La implementación del sistema involucra la conexión física de las válvulas solenoides al driver ULN2003 y este al Arduino. Los LEDs se instalan a diferentes alturas en cada tanque y se conectan a los pines de entrada del Arduino. Se desarrolla un sketch en C++ para Arduino, donde se define la lógica de control del sistema. El código permite leer el estado de los LEDs y controlar las válvulas de manera adecuada.",
-    "imagen": "https://i.postimg.cc/fVctDGYs/o9.jpg"
+    "imagen": "https://i.postimg.cc/fRFxjZLV/o9.jpg"
   }
 ]
