@@ -1,0 +1,49 @@
+{
+    "imagenes": [
+        {
+            "nombre": "feria",
+            "src": "https://i.postimg.cc/V6JrqvgK/feria.jpg",
+            "alt": "feria"
+        },
+        {
+            "nombre": "interview",
+            "src": "https://i.postimg.cc/xdTbdtzD/interview.png",
+            "alt": "entrevistas"
+        },
+        {
+            "nombre": "Isologos-Ingenieria-Mecatronica",
+            "src": "https://i.postimg.cc/kgyb9kDv/Isologos-Ingenieria-Mecatronica.png",
+            "alt": "mecatronica"
+        },
+        {
+            "nombre": "Isologos-Ingenieria-Sistemas",
+            "src": "https://i.postimg.cc/FKWkk3yf/Isologos-Ingenieria-Sistemas.png",
+            "alt": "sistemas"
+        },
+        {
+            "nombre": "Isologos-Ingenieria-Sistemas-Electronicos",
+            "src": "https://i.postimg.cc/28hW9qDJ/Isologos-Ingenieria-Sistemas-Electronicos.png",
+            "alt": "electronica"
+        },
+        {
+            "nombre": "Isologos-Ingenieria-Telecomunicaciones",
+            "src": "https://i.postimg.cc/Z5mdGTYq/Isologos-Ingenieria-Telecomunicaciones.png",
+            "alt": "telecomunicacion"
+        },
+        {
+            "nombre": "laugh",
+            "src": "https://i.postimg.cc/CMWD4GWk/laugh.png",
+            "alt": "memes"
+        },
+        {
+            "nombre": "logo-emi",
+            "src": "https://i.postimg.cc/CdTFfLrn/logo-emi.png",
+            "alt": "emi"
+        },
+        {
+            "nombre": "robot-arm",
+            "src": "https://i.postimg.cc/7PC07sQq/robot-arm.png",
+            "alt": "proyectos"
+        }
+    ]
+}

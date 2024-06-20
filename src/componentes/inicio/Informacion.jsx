@@ -1,10 +1,16 @@
 import React from "react";
 import "./Informacion.css";
+import imagenes from "../../datos/inicio.json"
 
 const Informacion = () => {
+  const { feria } = imagenes.imagenes.reduce((acc, img) => {
+    acc[img.nombre] = img;
+    return acc;
+  }, {});
+
   return (
     <div className="introduccion">
-      <img src={"./src/assets/imagenes/banner.jpg"} alt="banner" />
+      <img src={feria.src} alt={feria.alt} />
       <div className="texto">
         <h2>¿QUÉ ES OPEN HOUSE?</h2>
         <p>
@@ -41,7 +47,7 @@ const Informacion = () => {
           referente obligatorio académico de la institución, ofrece a los
           estudiantes la oportunidad de demostrar sus habilidades y creatividad.
         </p>
-        <img src={"./src/assets/imagenes/feria.jpg"} alt="" />
+        <img src={feria.src} alt={feria.alt} />
       </div>
     </div>
   );
